@@ -23,9 +23,6 @@ The **PHP Programming** project is created to help students understand PHP conce
 
 ## 📚 Topics Covered
 
-### 🔹 Unit 1: Terminologies in PHP
-An introduction to PHP terminology and fundamental concepts.
-
 ### 🔹 Unit 2: Basics of PHP and String Handling
 
 This unit covers the basic syntax of PHP and essential programming concepts.
