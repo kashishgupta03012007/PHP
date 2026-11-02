@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(
+            rgba(224, 242, 254, 0.75),
+            rgba(186, 230, 253, 0.8)
+        ),
+        url('bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #1e3a5f;
+    line-height: 1.65;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #0284c7, #0ea5e9, #38bdf8);
+    color: #ffffff;
+    text-align: center;
+    padding: 26px 16px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 20px rgba(14, 165, 233, 0.35);
+}
+
+/* Container */
+.container {
+    max-width: 880px;
+    margin: 40px auto;
+    padding: 0 18px;
+}
+
+/* Name Card */
+.name-card {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-align: center;
+    margin-bottom: 36px;
+    border: 1.5px solid #7dd3fc;
+    box-shadow: 0 8px 24px rgba(14, 165, 233, 0.15);
+}
+
+.name-card h1 {
+    font-size: 28px;
+    color: #0369a1;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.name-card .subtitle {
+    color: #0284c7;
+    font-size: 16.5px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.name-card .title {
+    color: #0c4a6e;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/* Sections */
+.section {
+    background: transparent;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid #7dd3fc;
+    border-radius: 14px;
+    padding: 26px 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.12);
+    transition: all 0.3s ease;
+}
+
+.section:hover {
+    border-color: #38bdf8;
+    box-shadow: 0 10px 28px rgba(14, 165, 233, 0.2);
+    transform: translateY(-3px);
+}
+
+.section h2 {
+    font-size: 19px;
+    color: #0369a1;
+    margin-bottom: 16px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #0ea5e9;
+    letter-spacing: 0.3px;
+}
+
+.section ol {
+    padding-left: 22px;
+}
+
+.section li {
+    margin-bottom: 12px;
+    font-size: 15.5px;
+    color: #1e3a5f;
+}
+
+.section a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: 550;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.section a:hover {
+    color: #0369a1;
+    border-bottom-color: #0ea5e9;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 30px 20px 40px;
+    color: #64748b;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
